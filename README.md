@@ -11,9 +11,9 @@ em voos de mais de uma hora, e deixa você navegar por milhões de pontos com a 
 editor de vídeo. Foi pensado para quem analisa voo todo dia: pilotos, engenheiros e equipes
 de manutenção de drones e aviões.
 
-### ⬇️ [Baixar o FastLogViewer 0.8.1](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.1/FastLogViewer-Setup-0.8.1.exe)
+### ⬇️ [Baixar o FastLogViewer 0.8.2](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.2/FastLogViewer-Setup-0.8.2.exe)
 
-`FastLogViewer-Setup-0.8.1.exe` · 66 MB · publicado em 22/10/2026 · [novidades](#novidades-da-versão-081)
+`FastLogViewer-Setup-0.8.2.exe` · 66 MB · publicado em 23/10/2026 · [novidades](#novidades-da-versão-082)
 
 ---
 
@@ -63,7 +63,7 @@ digitalmente e conferida antes de instalar.
 
 ## Instalação
 
-1. Baixe o [`FastLogViewer-Setup-0.8.1.exe`](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.1/FastLogViewer-Setup-0.8.1.exe).
+1. Baixe o [`FastLogViewer-Setup-0.8.2.exe`](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.2/FastLogViewer-Setup-0.8.2.exe).
 2. Execute. Ele instala em *Arquivos de Programas*, cria o atalho no menu Iniciar e aparece em
    *Abrir com* para arquivos `.bin` e `.tlog`.
 3. Pronto: daqui em diante as atualizações chegam pelo próprio programa.
@@ -75,7 +75,7 @@ digitalmente e conferida antes de instalar.
 **Sem acesso de administrador?** Rode pelo Prompt de Comando, na pasta do download:
 
 ```
-FastLogViewer-Setup-0.8.1.exe /CURRENTUSER
+FastLogViewer-Setup-0.8.2.exe /CURRENTUSER
 ```
 
 Para remover: *Configurações > Aplicativos > FastLogViewer > Desinstalar*. O desinstalador
@@ -89,15 +89,14 @@ apaga também as configurações e o cache de mapas.
 - Escolha um **Gráfico pronto** para começar com os gráficos mais comuns.
 - `F1` abre a ajuda com todos os atalhos de mouse e teclado.
 
-## Novidades da versão 0.8.1
+## Novidades da versão 0.8.2
 
-- *Verificar atualizações* (na Ajuda) mostra "Verificando atualizações…" enquanto procura,
-  e o clique não se perde mais se a verificação da abertura ainda estiver rodando
-- O FastLogViewer procura atualização toda vez que abre (antes era no máximo a cada 12 h)
-- *Pular esta versão* agora silencia aquela versão de vez, inclusive na barra de status;
-  ela só volta a aparecer em *Verificar atualizações*
-- Primeira atualização entregue pelo próprio app: se você está vendo este aviso, a
-  atualização automática está funcionando
+## Destaques
+- Aviso de atualização redesenhado: o cabeçalho mostra a versão atual e a nova, e os botões ficaram mais claros.
+- As novidades de cada versão agora aparecem organizadas por tipo e escritas para quem usa o programa.
+
+## Novidades
+- Caixas de aviso próprias para quando você já está com a versão mais recente e quando não foi possível verificar atualizações.
 
 As versões anteriores, com as novidades de cada uma e o SHA-256 do instalador, estão em
 [Releases](https://github.com/Tdlreis/FastLogViewer-Releases/releases).
