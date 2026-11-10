@@ -11,9 +11,9 @@ em voos de mais de uma hora, e deixa você navegar por milhões de pontos com a 
 editor de vídeo. Foi pensado para quem analisa voo todo dia: pilotos, engenheiros e equipes
 de manutenção de drones e aviões.
 
-### ⬇️ [Baixar o FastLogViewer 0.8.2](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.2/FastLogViewer-Setup-0.8.2.exe)
+### ⬇️ [Baixar o FastLogViewer 0.9.0](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.9.0/FastLogViewer-Setup-0.9.0.exe)
 
-`FastLogViewer-Setup-0.8.2.exe` · 66 MB · publicado em 23/10/2026 · [novidades](#novidades-da-versão-082)
+`FastLogViewer-Setup-0.9.0.exe` · 66 MB · publicado em 10/11/2026 · [novidades](#novidades-da-versão-090)
 
 ---
 
@@ -63,7 +63,7 @@ digitalmente e conferida antes de instalar.
 
 ## Instalação
 
-1. Baixe o [`FastLogViewer-Setup-0.8.2.exe`](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.8.2/FastLogViewer-Setup-0.8.2.exe).
+1. Baixe o [`FastLogViewer-Setup-0.9.0.exe`](https://github.com/Tdlreis/FastLogViewer-Releases/releases/download/v0.9.0/FastLogViewer-Setup-0.9.0.exe).
 2. Execute. Ele instala em *Arquivos de Programas*, cria o atalho no menu Iniciar e aparece em
    *Abrir com* para arquivos `.bin` e `.tlog`.
 3. Pronto: daqui em diante as atualizações chegam pelo próprio programa.
@@ -75,7 +75,7 @@ digitalmente e conferida antes de instalar.
 **Sem acesso de administrador?** Rode pelo Prompt de Comando, na pasta do download:
 
 ```
-FastLogViewer-Setup-0.8.2.exe /CURRENTUSER
+FastLogViewer-Setup-0.9.0.exe /CURRENTUSER
 ```
 
 Para remover: *Configurações > Aplicativos > FastLogViewer > Desinstalar*. O desinstalador
@@ -89,14 +89,22 @@ apaga também as configurações e o cache de mapas.
 - Escolha um **Gráfico pronto** para começar com os gráficos mais comuns.
 - `F1` abre a ajuda com todos os atalhos de mouse e teclado.
 
-## Novidades da versão 0.8.2
+## Novidades da versão 0.9.0
 
 ## Destaques
-- Aviso de atualização redesenhado: o cabeçalho mostra a versão atual e a nova, e os botões ficaram mais claros.
-- As novidades de cada versão agora aparecem organizadas por tipo e escritas para quem usa o programa.
+- Play no mapa: o cursor anda sozinho de 0,25x a 100x, com gráficos, mapa e barra de status acompanhando.
+- Linhas de direção no mapa mostram proa, rumo do GPS e para onde a navegação quer ir.
+- Nova aba *Rádio (RC)* mostra os sticks e as chaves do controle em tempo real.
 
 ## Novidades
-- Caixas de aviso próprias para quando você já está com a versão mais recente e quando não foi possível verificar atualizações.
+- Botão ▶ no mapa (ou `Espaço`) para tocar o log; clique ou arraste na linha do tempo para pular ou procurar.
+- Linhas que saem do avião no mapa, ativáveis em *Camadas*, funcionando em 2D e 3D, para `.bin` e `.tlog`.
+- Aba *Rádio (RC)* com os dois sticks, rastro do último segundo e escolha de acelerador em *Modo 1* ou *Modo 2*.
+- A aba *Rádio (RC)* mostra a chave de modo de voo, chaves com função, RSSI e LQ, e avisa sobre failsafe, falta de sinal ou override do MAVLink.
+
+## Melhorias
+- O zero no eixo Y agora é ajustado por painel, e o programa lembra a última escolha para painéis novos.
+- O marcador do avião no mapa virou um ponto azul, com as linhas de direção saindo dele.
 
 As versões anteriores, com as novidades de cada uma e o SHA-256 do instalador, estão em
 [Releases](https://github.com/Tdlreis/FastLogViewer-Releases/releases).
